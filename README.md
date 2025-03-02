@@ -25,4 +25,4 @@ The **Hospital Management System** is a web application designed to automate hos
 1. Clone the repository:
    ```sh
    git clone https://github.com/Nelisiwe1/Hospital_Management_System.git
-   cd hospital-management-system
+   

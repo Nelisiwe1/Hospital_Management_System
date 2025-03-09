@@ -12,6 +12,9 @@ The **Hospital Management System** is a web application designed to automate hos
 ## Links
 - [SPECIFICATION.md](./SPECIFICATION.md)
 - [ARCHITECTURE.md](./ARCHITECTURE.md)
+- [STAKEHOLDERS.md](./STAKEHOLDERS.md)
+- [SYSTEM_REQUIREMENTS.md](./SYSTEM_REQUIREMENTS.md])
+- [REFLECTION.md](./REFLECTION.md)
 
 ## Technology Stack
 - **Frontend**: React.js

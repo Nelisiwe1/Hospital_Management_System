@@ -15,18 +15,10 @@ This document translates stakeholder and system requirements from Assignment 4 i
   - *Generalization*: Doctors and Nurses inherit access to patient records.
   - *Inclusion*: "Check Availability" is included in "Book Appointment."
 
-```mermaid
-graph TD;
-    Patient -->|Books| Appointment;
-    Patient -->|Views| Records;
-    Doctor -->|Updates| Records;
-    Nurse -->|Updates| Medication;
-    Receptionist -->|Checks-in| Patient;
-    Admin -->|Generates| Reports;
-    IT_Staff -->|Manages| User_Roles;
-    System -->|Flags| Emergency_Cases;
-    Doctor -->|Prescribes| E-Prescription;
-```
+
+![Use Case Diagram](Use case.svg)
+
+
 
 ### **Explanation**
 - The diagram ensures alignment with the **functional requirements** in Assignment 4.

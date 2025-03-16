@@ -16,7 +16,7 @@ This document translates stakeholder and system requirements from Assignment 4 i
   - *Inclusion*: "Check Availability" is included in "Book Appointment."
 
 
-![Use Case Diagram](Use case.svg)
+![Use Case Diagram](Use-case.svg)
 
 
 

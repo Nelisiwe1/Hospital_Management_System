@@ -73,3 +73,30 @@ This document translates stakeholder and system requirements from Assignment 4 i
 |-------------|---------------|-------------|-------|-----------------|--------------|-----------------|
 | NTC001 | NF-005 | Performance: Handle 1000 users | Simulate 1000 users searching for appointments | System responds within 2 seconds | | |
 | NTC002 | NF-006 | Security: Ensure AES-256 encryption | Attempt unauthorized data access | System denies access | | |
+
+# Reflection: Challenges in Translating Requirements to Use Cases and Tests
+
+## Key Challenges & Solutions
+
+### 1. Understanding Stakeholder Needs
+- **Challenge**: Translating stakeholder expectations from Assignment 4 into detailed, actionable use cases.
+- **Solution**: Conducted a thorough review of stakeholder concerns and aligned them with functional requirements.
+
+### 2. Defining Clear Use Case Boundaries
+- **Challenge**: Some system interactions overlapped, making it difficult to define distinct use cases.
+- **Solution**: Used inclusion and generalization relationships to organize related use cases efficiently.
+
+### 3. Creating Effective Test Cases
+- **Challenge**: Ensuring that test cases adequately covered both functional and non-functional requirements.
+- **Solution**: Developed structured test case tables and incorporated performance and security testing to validate system efficiency.
+
+### 4. Ensuring System Scalability and Security
+- **Challenge**: Addressing non-functional requirements like handling concurrent users and ensuring security.
+- **Solution**: Introduced test scenarios to simulate high user loads and unauthorized access attempts.
+
+### 5. Maintaining Consistency Across Assignments
+- **Challenge**: Ensuring that use cases and test cases remained consistent with previous requirements.
+- **Solution**: Regular cross-referencing with Assignment 4 ensured all use cases were valid and test cases aligned correctly.
+
+## Conclusion
+The process of developing use case models and test cases strengthened the understanding of system behavior, user interactions, and validation mechanisms. By focusing on structured modeling, clear requirements, and robust test scenarios, this assignment ensures the Hospital Management System meets stakeholder expectations while maintaining security, scalability, and performance.

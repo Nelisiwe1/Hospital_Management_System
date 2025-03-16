@@ -17,15 +17,25 @@ This document translates stakeholder and system requirements from Assignment 4 i
 
 ```mermaid
 graph TD;
-    Patient -->|Books| Appointment;
-    Patient -->|Views| Records;
-    Doctor -->|Updates| Records;
-    Nurse -->|Updates| Medication;
-    Receptionist -->|Checks-in| Patient;
-    Admin -->|Generates| Reports;
-    IT_Staff -->|Manages| User_Roles;
-    System -->|Flags| Emergency_Cases;
-    Doctor -->|Prescribes| E-Prescription;
+    A[Patient] -->|Book Appointment| B[Appointment System];
+    A -->|View Medical Records| C[Medical Records];
+    A -->|Make Payment| D[Billing System];
+
+    E[Doctor] -->|Consult Patient| F[Consultation];
+    E -->|Update Medical Records| C;
+    E -->|Prescribe Medication| G[Pharmacy System];
+
+    H[Receptionist] -->|Register Patient| I[Registration System];
+    H -->|Manage Appointments| B;
+    H -->|Process Billing| D;
+
+    J[Pharmacist] -->|Dispense Medication| G;
+
+    K[Lab Technician] -->|Conduct Lab Test| L[Lab System];
+
+    M[Admin] -->|Manage Staff| N[HR System];
+    M -->|Manage System Settings| O[Admin Panel];
+
 ```
 
 ### **Explanation**
